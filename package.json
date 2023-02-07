@@ -1,6 +1,24 @@
 {
   "dependencies": {
     "normalize": "^0.3.1",
-    "sass": "^1.58.0"
-  }
+    "sass": "^1.58.0",
+    "svg-to-inline": "^1.0.0-alpha.1"
+  },
+  "name": "layout",
+  "description": "Layout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbokovtakeoffstaff/Layout.github.io.git"
+  },
+  "author": "pbokov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbokovtakeoffstaff/Layout.github.io/issues"
+  },
+  "homepage": "https://github.com/pbokovtakeoffstaff/Layout.github.io#readme"
 }
