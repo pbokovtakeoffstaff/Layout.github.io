@@ -1,0 +1,8 @@
+@import "roboto/regular400/roboto.css";
+@import "roboto/medium500/roboto.css";
+@import "roboto/bold700/roboto.css";
+@import "roboto/black900/roboto.css";
+
+* {
+    font: 400 16px/1.5em 'Roboto', 'Arial' ;
+}
