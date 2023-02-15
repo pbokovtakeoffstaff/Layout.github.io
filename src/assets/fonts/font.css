@@ -3,6 +3,6 @@
 @import "roboto/bold700/roboto.css";
 @import "roboto/black900/roboto.css";
 
-* {
-    font: 400 16px/1.5em 'Roboto', 'Arial' ;
-}
+/** {*/
+/*    font: 400 16px/1.5em 'Roboto', 'Arial' ;*/
+/*}*/
