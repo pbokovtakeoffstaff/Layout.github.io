@@ -1,21 +1,3 @@
 @import "../../assets/fonts/font.css";
-.Btn {
-  width: 190px;
-  height: 36px;
-  display: inline-flex;
-  border-radius: 2px;
-  cursor: pointer;
-  background: #111B47;
-  color: #FFFFFF;
-  font: 500 16px/26px "Roboto", "Arial";
-  align-items: center;
-  box-sizing: border-box;
-  justify-content: center;
-}
-.Btn--withOutBG {
-  background: none;
-  border: 2px solid #091133;
-  color: #091133;
-}
 
 /*# sourceMappingURL=card.css.map */
