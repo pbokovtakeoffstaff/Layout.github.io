@@ -1,0 +1,31 @@
+.Card{
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  margin-top: 243px; //ToDo Плохое решение, надо двигать элемент
+
+  &-TextTitle{
+
+  }
+
+  &-TextBody{
+    margin-top: 20px;
+  }
+
+  &-Button{
+    margin-top: 83px;
+
+  }
+}
+
+.Text {
+
+  &--title{
+    font: 500 50px/66px 'Roboto', 'Arial';
+    letter-spacing: 1px;
+  }
+
+  &--body {
+    font: 400 18px/30px 'Roboto', 'Arial';
+  }
+}

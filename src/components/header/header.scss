@@ -1,0 +1,42 @@
+@import "../button/button";
+@import "../../global/style";
+
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  & > * {
+    width: calc(100%/3);
+  }
+}
+
+.Navigator {
+  height: 24px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  font: 400 14px/24px 'Roboto', 'Arial';
+
+  &-Item {
+    display: flex;
+    justify-content: start;
+  }
+
+  &-Text {
+
+  }
+
+  &-Text2 {
+    margin-left: 60px;
+  }
+
+}
+
+.Landie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 900 26px/38px 'Roboto', 'Arial';
+}

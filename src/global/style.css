@@ -1,0 +1,11 @@
+@import "../assets/fonts/font.css";
+.Wrapper {
+  outline: solid 1px red;
+  padding: 0 15px;
+  max-width: 1130px;
+  margin: 0 auto;
+  min-width: 768px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
