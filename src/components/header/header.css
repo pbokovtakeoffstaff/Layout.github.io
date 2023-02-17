@@ -1,5 +1,4 @@
 @import "../../assets/fonts/font.css";
-@import "../assets/fonts/font.css";
 .Btn {
   width: 190px;
   height: 36px;
@@ -29,20 +28,6 @@
 }
 .Btn-InCard {
   margin-left: 25px;
-}
-
-.Wrapper {
-  outline: solid 1px red;
-  padding: 0 15px;
-  max-width: 1130px;
-  margin: 0 auto;
-  min-width: 768px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.Content {
-  margin-top: 100px;
 }
 
 .Header {

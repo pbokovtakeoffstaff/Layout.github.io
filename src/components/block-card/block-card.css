@@ -4,19 +4,16 @@
   width: 550px;
   margin-top: 243px;
 }
-.Card-TextBody {
-  margin-top: 20px;
-}
-.Card-Button {
-  margin-top: 83px;
-}
-
-.Text--title {
+.Card-TextTitle {
   font: 500 50px/66px "Roboto", "Arial";
   letter-spacing: 1px;
 }
-.Text--body {
+.Card-TextBody {
+  margin-top: 20px;
   font: 400 18px/30px "Roboto", "Arial";
+}
+.Card-Button {
+  margin-top: 83px;
 }
 
 /*# sourceMappingURL=block-card.css.map */
