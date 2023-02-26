@@ -6,38 +6,14 @@
 }
 
 .Wrapper {
+  position: relative;
   outline: solid 1px red;
   padding: 0 15px;
-  max-width: 1130px;
+  max-width: 1110px;
   margin: 0 auto;
   min-width: 768px;
   width: 100%;
   box-sizing: border-box;
-}
-
-.Content {
-  margin-top: 100px;
-}
-
-.Page {
-  position: relative;
-  height: 2000px;
-}
-
-.imgBG {
-  position: absolute;
-  background-size: cover;
-  width: 100vw;
-  height: 100%;
-  background-image: url("../assets/img/png/illustration inner.png");
-  background-repeat: no-repeat;
-}
-
-.Image {
-  position: absolute;
-  right: 0;
-  z-index: -1;
-  top: 27px;
 }
 
 /*# sourceMappingURL=style.css.map */

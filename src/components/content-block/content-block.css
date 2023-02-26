@@ -1,0 +1,18 @@
+.ContentBlock {
+  margin: 0 auto;
+  max-width: 1440px;
+  border: 2px solid green;
+}
+.BackgroundImage {
+  position: fixed;
+  height: 1070px;
+  width: 100%;
+  background-image: url("/src/assets/img/png/illustration inner.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+  top: -40px;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=content-block.css.map */

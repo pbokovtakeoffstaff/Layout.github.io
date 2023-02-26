@@ -1,0 +1,63 @@
+.Content {
+  margin-top: 100px;
+}
+
+.Card-textTitle {
+  font: 500 50px/66px "Roboto", "Arial";
+  letter-spacing: 1px;
+}
+.Card-text-body {
+  font: 400 18px/30px "Roboto", "Arial";
+}
+.Card-button {
+  display: flex;
+}
+
+.Btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111B47;
+  padding: 10px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  cursor: pointer;
+  border: 2px solid #091133;
+  font: 500 16px/26px "Roboto", "Arial";
+}
+.Btn-navigation {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.Btn:hover {
+  background: #374681;
+  border-color: #374681;
+}
+.Btn--outline {
+  color: #091133;
+  background: transparent;
+}
+.Btn--outline:hover {
+  background: #F3F5FF;
+}
+.Btn--inline {
+  display: inline-block;
+}
+.Btn--sm {
+  font: 500 12px/18px "Roboto", "Arial";
+  width: 160px;
+  height: 18px;
+}
+.Btn--md {
+  padding: 10px;
+  font-size: 14px;
+  width: 189px;
+  height: 36px;
+}
+.Btn--lg {
+  padding: 15px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=content.css.map */

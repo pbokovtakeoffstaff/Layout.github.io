@@ -3,58 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Layout</title>
-    <link rel="stylesheet" href="./src/components/header/header.css">
-    <link rel="stylesheet" href="./src/components/block-card/block-card.css">
-    <link rel="stylesheet" href="./src/global/style.css">
+    <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<style>
+    .helper, .helper *{ outline: solid 1px red; }
+</style>
 
-<div class="Landing">
-    <div class="Page">
-<!--        Не получилось сделать через Background-->
-<!--        <div class="imgBG"></div>-->
-        <img class='Image'  src="./src/assets/img/png/Group.png" alt="">
+<div class="Landing helper">
+    <div class="ContentBlock">
+        <div class="BackgroundImage"></div>
         <div class="Wrapper">
             <div class="Header">
-                <div class="Navigator">
-                    <div class="Navigator-Item">
-                        <div class="Navigator-Text">Home</div>
-                        <div class="Navigator-Text2">About</div>
-                        <div class="Navigator-Text2">Contact</div>
-                    </div>
+                <div class="Navigator ">
+                    <div class="Navigator-text">Home</div>
+                    <div class="Navigator-text">About</div>
+                    <div class="Navigator-text">Contact</div>
                 </div>
-
                 <div class="Landie">Landie</div>
                 <div class="Btn-navigation">
-                    <div class="Btn Btn--inHeader">Bye Now</div>
+                    <div class="Btn Btn--sm">Bye Now</div>
                 </div>
             </div>
             <div class="Content">
                 <div class="Card">
-                    <div class="Card-TextTitle">Introduce Your Product Quickly & Effectively</div>
-                    <div class="Card-TextBody">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus<br>
+                    <div class="Card-textTitle">Introduce Your Product  <br> Quickly & Effectively</div>
+                    <div class="Card-text-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
                         mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
                     </div>
-                    <div class="Card-Button">
-                        <div class="Btn">
+                    <div class="Card-button">
+                        <div class="Btn Btn--md">
                             Purchase UI Kit
                         </div>
-
-                        <div class="Btn Btn-InCard Btn--withOutBG">
+                        <div class="Btn Btn--outline Btn--md">
                             Learn More
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
-
     </div>
-
 </div>
+
+
 
 
 </body>
