@@ -1,0 +1,35 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.Header > * {
+  width: 33.3333333333%;
+}
+
+.Landie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 900 26px/38px "Roboto", "Arial";
+}
+
+.Navigator {
+  display: inline-flex;
+  font: 400 14px/24px "Roboto", "Arial";
+}
+.Navigator :not(:first-child) {
+  margin-left: 30px;
+}
+.Navigator-text {
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+.Navigator-text:hover {
+  background: #F9FAFF;
+}
+
+/*# sourceMappingURL=header.css.map */

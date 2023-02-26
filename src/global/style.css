@@ -1,0 +1,19 @@
+@import "../assets/fonts/font.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Wrapper {
+  position: relative;
+  outline: solid 1px red;
+  padding: 0 15px;
+  max-width: 1110px;
+  margin: 0 auto;
+  min-width: 768px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */

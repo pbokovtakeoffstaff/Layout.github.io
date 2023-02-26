@@ -1,0 +1,25 @@
+.Card{
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  margin-top: 243px; //ToDo Плохое решение, надо двигать элемент
+
+  &-TextTitle{
+    font: 500 50px/66px 'Roboto', 'Arial';
+    letter-spacing: 1px;
+  }
+
+  &-TextBody{
+    margin-top: 20px;
+    font: 400 18px/30px 'Roboto', 'Arial';
+  }
+
+  &-Button{
+    margin-top: 83px;
+  }
+}
+
+//.Block1{
+//  position: relative;
+//  height: 1040px;
+//}
